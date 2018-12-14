@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hello world</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-    </head>
-    <body>
-        <!-- <img  src="/assets/logo/logo.png" />-->
-        <div class="w3-bar">
-            <a class="w3-bar-item w3-button" href="/index.html">Home</a>
-            <a class="w3-bar-item w3-button" href="/producten.html">Producten</a>
-            <a class="w3-bar-item w3-button" href="/salons.html">Salons</a>
-            <a class="w3-bar-item w3-button" href="/openingstijden.html">Openingstijden</a>
-        </div> 
-        <div style="width: 720px"><iframe width="1024" height="300" src="https://maps.google.com/maps?width=720&amp;height=300&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Map a route</a></iframe></div><br />
-    </body>
-</html>
+    <title>Scissor Magic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <script src="assets/js/index.js"></script>
+<body>
+    <div class="w3-top">
+    <div class="w3-bar" id="Navbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+        <a href="/index.html" class="w3-bar-item w3-button"><img src="assets/logo/logo.png" width="20" height="20"> HOME</a>
+        <a href="/openingtijden.html" class="w3-bar-item w3-button w3-hide-small"> OPENINGSTIJDEN</a>
+        <a href="/producten.html" class="w3-bar-item w3-button w3-hide-small">PRODUKTEN</a>
+        <a href="/salons.html" class="w3-bar-item w3-button w3-hide-small">SALONS</a>
+    </div>
+
+    <div id="nav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="/index.html" class="w3-bar-item w3-button">OPENINGSTIJDEN</a>
+        <a href="/openingstijden.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="/producten.html" class="w3-bar-item w3-button">PRODUKTEN</a>
+        <a href="/salons.html" class="w3-bar-item w3-button">SALONS</a>
+    </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">OPENINGSTIJDEN</h3>
+        <div style="width: 100%"><iframe width="1024" height="300" src="https://maps.google.com/maps?width=1080&amp;height=300&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Map a route</a></iframe></div><br />
+
+    </div>
+</body>

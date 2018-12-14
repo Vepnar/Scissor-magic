@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hello world</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-    </head>
-    <body>
-        <!-- <img  src="/assets/logo/logo.png" />-->
-        <div class="w3-bar">
-            <a class="w3-bar-item w3-button" href="/index.html">Home</a>
-            <a class="w3-bar-item w3-button" href="/producten.html">Producten</a>
-            <a class="w3-bar-item w3-button" href="/salons.html">Salons</a>
-            <a class="w3-bar-item w3-button" href="/openingstijden.html">Openingstijden</a>
-        </div> 
-        <table class="w3-table w3-border">
-                <tr class="w3-border">
-                    <th><b>Prijzen</b></th>
-                </tr>
-                <tr class="w3-border">
-                    <th>Profesioneel advies</th>
-                    <th>Wassen, Knippen en drogen</th>
-                    <th>Modelföhnen</th> <!-- Add "o-->
-                    <th>Kleurspoeling</th>
-                </tr>
-                <tr class="w3-border">
-                    <td>€ 15,00</td>
-                    <td>€ 12,50</td>
-                    <td>€ 32,75</td>
-                    <td>€ 12,50</td> 
-                </tr>
-                <tr class="w3-border">
-                    <th>Hightlights<br>Max. 10 highlights</th>
-                    <th>Permanente kleuring</th>
-                    <th>Balayge</th>
-                <tr class="w3-border">
-                    <td>€ 15,00</td>
-                    <td>€ 12,50</td>
-                    <td>€ 32,75</td>
-                </tr>
-        </table>
-        <img src="/assets/300px/punk1.jpg" class="w3-border w3-margin" alt="Haarstyle 1" />
-        <img src="/assets/300px/punk2.jpg" class="w3-border w3-margin" alt="Haarstyle 2" />
-        <img src="/assets/300px/punk3.jpg" class="w3-border w3-margin" alt="Hairstyle 3" /><br>
-        <a href="/punk.html" class="w3-button">Ga naar de pagina met meer punk plaatjes</a>
-    </body>
-</html>
+    <title>Scissor Magic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <script src="assets/js/index.js"></script>
+<body>
+    <div class="w3-top">
+    <div class="w3-bar" id="Navbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+        <a href="/index.html" class="w3-bar-item w3-button"><img src="assets/logo/logo.png" width="20" height="20"> HOME</a>
+        <a href="/openingtijden.html" class="w3-bar-item w3-button w3-hide-small"> OPENINGSTIJDEN</a>
+        <a href="/producten.html" class="w3-bar-item w3-button w3-hide-small">PRODUKTEN</a>
+        <a href="/salons.html" class="w3-bar-item w3-button w3-hide-small">SALONS</a>
+    </div>
+
+    <div id="nav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="/index.html" class="w3-bar-item w3-button">OPENINGSTIJDEN</a>
+        <a href="/openingstijden.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="/producten.html" class="w3-bar-item w3-button">PRODUKTEN</a>
+        <a href="/salons.html" class="w3-bar-item w3-button">SALONS</a>
+    </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">Scissor Magic</h3>
+        <h4 class="w3-center">Prijzen</h4>
+        <div>
+            Profesioneel advies <b class="w3-margin-left">€ 15,00</b><br>
+            Wassen, Knippen en drogen  <b class="w3-margin-left">€ 12,50</b><br>
+            Modelföhnen  <b class="w3-margin-left">€ 32,75</b><br>
+            kleurspoeling  <b class="w3-margin-left">€ 12,50</b><br>
+            Hightlights (Max. 10 hightlights)  <b class="w3-margin-left">€ 15,00</b><br>
+            Permanente kleurspoeling  <b class="w3-margin-left">€ 12,50</b><br>
+            Balayge <b class="w3-margin-left">€ 32,75</b><br>
+            <img src="/assets/300px/punk1.jpg" class="w3-border" alt="Haarstyle 1" />
+            <img src="/assets/300px/punk2.jpg" class="w3-border" alt="Haarstyle 2" />
+            <img src="/assets/300px/punk3.jpg" class="w3-border" alt="Hairstyle 3" /><br>
+            <a href="/punk.html" class="w3-button">Ga naar de pagina met meer punk plaatjes</a>
+        </div>
+        
+    </div>
+</body>
