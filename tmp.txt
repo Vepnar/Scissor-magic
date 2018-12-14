@@ -1,0 +1,30 @@
+<table class="w3-border" style="width:900px;">
+            <tr>
+                <th>Openingstijdenen</th>
+            </tr>
+            <tr>
+                <th>Kapsalon Scissor Magic<br> in Huizen</th>
+                <th>Kapsalon Scissor Magic<br> in Naarden</th>
+                <th>Kapsalon Scissor Magic<br>in Uterecht</th>
+            </tr>
+        </table>
+        <table class="w3-border" style="width:900px;">
+            <tr>
+                <th>ma -vr</th>
+                <th>za</th>
+                <th>zo</th>
+                <th>ma -vr</th>
+                <th>za</th>
+                <th>zo</th>
+                <th>ma -vr</th>
+                <th>za</th>
+                <th>zo</th>
+            </tr>
+                <table>
+                    <tr>
+                        
+                    </tr>
+                </table>
+                
+            </tr>
+        </table>
